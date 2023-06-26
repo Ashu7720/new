@@ -1,0 +1,547 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+margin: 0;
+Padding: 0;
+box-sizing: border-box;
+}
+
+:root {
+    --primary-text-color: #111;
+    --secondary-text-color: #577592;
+    --accent-color: blue;
+    --accent-color-dark: white;
+    --padding-inline-section: 20px;
+
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
+    color: var(--primary-text-color);
+}
+ 
+p{
+    font-family: 'roboto',sans-serif;
+    font-size: 1.50rem;
+    color:var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.top-banner{
+    background-color:rgb(255, 219, 205);
+    text-align: center;
+
+}
+
+.company-logo{
+    background-color: whitesmoke;
+    padding: auto;
+}
+.topnav{
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    display: flex;
+    text-decoration: none;
+    word-spacing: 10%;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 25px;
+    white-space: nowrap;
+
+}
+
+.active{
+    font-size: 1.5rem;
+    padding-right: 0.5rem;
+}
+
+.News{
+    padding-right: 0.5rem;
+}
+
+.topic-component{
+    display: flex;
+    padding-top: 5rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+.leftTopic{
+    padding-top: 5rem;
+    padding-right: 4rem;
+}
+
+.FirstHeading{
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.desc{
+    padding-bottom: 2rem;
+}
+   .GetStarted{
+    height: 4rem;
+    width: 10rem;
+    background-color: aqua;
+    color: white;
+    font-size: 1.3rem;
+    border: none;
+   }
+    .img1{
+        width: 600px;
+        
+
+    }
+    .companies{
+        padding-left: 9rem;
+        padding-right: 9rem;
+        padding-top: 5rem;
+        text-align: center;
+
+    }
+    .co1{
+        padding-right: 2rem;
+        width: 12%;
+        
+    }
+    .mybox{
+        width: 6%;
+        padding-right: 2rem;
+    }
+
+    .brands{
+        padding-top: 2rem;
+    
+        
+    }
+
+    .feature-heading{
+        text-align: center;
+        padding-top: 4rem;
+    
+    }
+
+    .SeeAllFeatures{
+        background-color: transparent;
+        font-size: 20px;
+        margin-top: 2rem;
+        font-weight: 400;
+        line-height: 25px;
+        height: 2.2rem;
+        width: 11rem;
+        margin-bottom: 1rem;
+        display: inline-block;
+        text-align: center;
+        border: 1px solid aqua;
+        flex-wrap: wrap;
+    }
+    
+    .fetures-area{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+    .features-card{
+        flex-direction: column;
+        text-align: center;
+    
+        max-width: 30%;
+        padding-left: 8rem;
+    }
+    
+  .learn-more{
+    background-color:transparent;
+    width: 16rem;
+    height: 3rem;
+    box-sizing: content-box;
+    margin-top: 3rem;
+    font-size: 150%;
+    background-color:lightsalmon;
+
+    
+  }
+  .Designprofessionals{
+    display: flex;
+   justify-content: space-evenly;
+   padding-top: 2rem;
+    
+    
+  }
+
+  .leftsideimg{
+    width: 450px;
+    height: 450px;
+    
+    
+
+  }
+  .Step1{
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+    font-display:none;
+    color: blueviolet;
+  }
+  .Step2{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: blueviolet;
+  }
+
+  .Step3{
+    margin-top: 2rem;
+    font-size: 150%;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    color: blueviolet
+  }
+  .Step4{
+    color: black;
+  }
+
+
+  
+ .rightsidecontent{
+    width: 40%;
+    padding-top: 8rem;       
+ }
+
+ .Nickcomponent{
+    display: flex;
+    margin-left: 45rem;
+  }
+ 
+.Nick{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+}
+
+.Officer{
+   font-size: 0.9rem;
+   text-align: center;
+   margin-left: 1rem;
+}
+
+.marketing{
+    display: flex;
+    margin-top: 2rem;
+}
+.rightsideimg{
+    width: 550px;
+    height: 550px;
+}
+.leftsidecontent{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 8rem;
+    justify-content: space-around;
+}
+.Optimisation{
+    margin-bottom: 1rem;
+    color: lightseagreen;
+    font-weight: 1000;
+}
+
+.Marketers{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: lightseagreen;
+}
+
+.para-1{
+    color: black;
+    font-weight: 500;
+    font-size: 150%;
+    margin-bottom: 2rem;
+}
+    .Philips{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        color: lightseagreen;
+    
+}
+
+.para-2{
+    width: 35rem;
+    color: black;
+    font-weight: 500;
+
+  
+}
+
+.Product-managers{
+    display: flex;
+    width: 450px;
+    margin-top: 8rem;
+}
+
+.Managerimg{
+    width: 450px;
+    height: 450px;
+    margin-left: 2rem;
+}
+
+.manager{
+    margin-left:15rem;
+}
+
+.Head1{
+font-size: 1.4rem;
+margin-bottom: 1.3rem;
+
+}
+
+.Head2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    width: 35rem;
+    
+}
+
+.head3{
+width: 10rem;
+margin-bottom: 1.5rem;
+margin-top: 2rem;
+
+}
+
+.Adopting{
+    font-size: 1.5rem;
+    width: 30rem;
+    color: transparent solid;
+    margin-bottom: 1rem;
+}
+.feedback{
+    display: flex;
+
+}
+
+.feed1{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.VP-INNBATION{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.oneplatform{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 3rem;
+    height: 5rem;
+    padding-bottom: 15rem;
+
+}
+
+.myexamples{
+    height: 2.5rem;
+    width: 12rem;
+    background-color: transparent;
+    margin-top: rem;
+    font-size: 1rem;
+    font-weight: 800;
+    
+
+}
+
+.myexamples:hover{
+    color: aqua;
+}
+.Exampleimage{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5rem;    
+}
+
+.slide1{
+    position: relative;
+    width: 350px;
+    height: 450px;
+    background: black;
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),  url(./assets/asset36.jpeg);
+    
+    
+}
+
+.slide2{
+    position: relative;
+    width: 350px;
+    height: 450px;
+    background: black;
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),  url(./assets/asset37.jpeg);
+    
+    
+}
+
+.slide3{
+    position: relative;
+    width: 350px;
+    height: 450px;
+    background: black;
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),  url(./assets/asset38.jpeg);
+    
+    
+}
+.slide4{
+    position: relative;
+    width: 350px;
+    height: 450px;
+    background: black;
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),  url(./assets/asset39.jpeg);
+    
+    
+}
+
+.text1{
+    position: relative;  
+   
+    font-size: 1rem;
+}
+
+.slide1desc{
+   
+    position: absolute;
+    bottom: 5px;
+   font-size: 1.5rem;
+    left: 1.5rem;
+    width: 15rem;
+    color: white;
+    font-weight: 600;
+  }
+
+  .noparticipants{
+    height: 38rem;
+    display: flex;
+    justify-content: space-between;
+    background-color:lightcoral;
+    padding-left: 5rem;
+    padding-right: 2rem; 
+
+
+  }
+  .site1{
+    margin-left: 2rem;
+  }
+
+  .usd{
+    width: 450px;
+    height: 450px;
+    
+
+  }
+
+  .class1{
+    margin-left: 5rem;
+    font-size: 5rem;
+    margin-top: 2rem;
+  }
+  .class2{
+    margin-left: 5rem;
+    font-size: 5rem;
+
+  }
+  
+  .class3{
+    margin-left: 5rem;
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1rem;
+  }
+    .pannel{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    font-size: 2rem;
+    }
+
+    .kanu{
+        display:flex;
+        justify-content: space-between;
+    
+    }
+  .listing{
+    font-size: 1.5rem;
+    
+  }
+
+  .Star{
+    margin-top: 1rem;
+    width: 13rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-family: serif;
+    display: inline-block;
+    transition-duration: 0.5s;
+    border: none;
+    color: white;
+    transition-duration: 0.5s;
+    background-color: blue;
+    
+    
+  }
+  
+  .listing2{
+    font-size: 1.5rem;
+
+
+  }
+
+  .price{
+  position: relative;
+  }
+  .xyz{
+    width: 100%;
+    
+  }
+  .bubble{
+    width: 210px;
+    
+    transform: translate(80%,-170%);
+    
+   
+  }
+  .dollar{
+    position: relative;
+    text-align: center;
+    font-size: 1rem;
+    
+
+  }
+  
+  .amt {
+    position: absolute;
+    bottom: 30rem;
+    margin-left: 12rem;
+    text-align: center;
+    justify-content: space-between;
+ 
+
+  }
+
+  .dollar1{
+    bottom: 28rem;
+    margin-left: 12rem;
+    position: absolute;
+    color: blue;
+    
+  }
+
+
+  .dollar2{
+    bottom: 26rem;
+    margin-left: 14em;
+    position: absolute;
+    color: blue;
+  }
